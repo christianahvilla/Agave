@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="srm">
+        <item>@color/c_1</item>
+        <item>@color/c_2</item>
+        <item>@color/c_3</item>
+        <item>@color/c_4</item>
+        <item>@color/c_5</item>
+        <item>@color/c_6</item>
+        <item>@color/c_7</item>
+        <item>@color/c_8</item>
+        <item>@color/c_9</item>
+        <item>@color/c_10</item>
+        <item>@color/c_11</item>
+        <item>@color/c_12</item>
+        <item>@color/c_13</item>
+        <item>@color/c_14</item>
+        <item>@color/c_15</item>
+        <item>@color/c_16</item>
+        <item>@color/c_17</item>
+        <item>@color/c_18</item>
+        <item>@color/c_19</item>
+        <item>@color/c_20</item>
+        <item>@color/c_21</item>
+        <item>@color/c_22</item>
+        <item>@color/c_23</item>
+        <item>@color/c_24</item>
+        <item>@color/c_25</item>
+        <item>@color/c_26</item>
+        <item>@color/c_27</item>
+        <item>@color/c_28</item>
+        <item>@color/c_29</item>
+        <item>@color/c_30</item>
+        <item>@color/c_31</item>
+        <item>@color/c_32</item>
+        <item>@color/c_33</item>
+        <item>@color/c_34</item>
+        <item>@color/c_35</item>
+        <item>@color/c_36</item>
+        <item>@color/c_37</item>
+        <item>@color/c_38</item>
+        <item>@color/c_39</item>
+        <item>@color/c_40</item>
+    </array>
+</resources>

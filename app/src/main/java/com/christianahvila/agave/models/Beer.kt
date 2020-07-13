@@ -52,11 +52,11 @@ data class BeerDetail (
     @SerializedName(Constants.FIRST_BREWED)
     val firstBrewed: String,
     @SerializedName(Constants.FOOD_PAIRING)
-    val foodPairing: String,
+    val foodPairing: Array<String>,
     @SerializedName(Constants.ABU)
     val abv: Float,
     @SerializedName(Constants.IBU)
-    val ibu: Int,
+    val ibu: Float,
     @SerializedName(Constants.SRM)
     val srm: Float
 )

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Agave</string>
+    <string name="home_title">Cervezas</string>
+    <string name="border_row">border_row</string>
+    <string name="mock_beer_name">Victoria</string>
+    <string name="mock_beer_tag_line">Victoria</string>
+    <string name="description">Description</string>
+    <string name="first_brewed_date">First Brewed Date</string>
+    <string name="abv">ABV</string>
+</resources>
