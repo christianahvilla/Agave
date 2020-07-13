@@ -13,14 +13,11 @@ class DetailPresenter: DetailContract.Presenter {
 
 
     override fun loadData(id: Int) {
-        val subscribe = api.getArticleDetailed(id).subscribeOn(Schedulers.io())
+        val subscribe = api.getDetailBeer(id).subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .subscribe({ detailed: BeerDetail ->
-                view.showProgress(false)
-                view.loadDataSuccess(detailed)
-            }, { error ->
-                view.showProgress(false)
-                view.showErrorMessage(error.localizedMessage)
+            .subscribe({ detailed: ArrayList<BeerDetail> ->
+                view.loadDataSuccess(detailed[0])
+            }, { 
             })
 
         subscriptions.add(subscribe)

@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Agave</string>
+    <string name="home_title">Beers</string>
+    <string name="border_row">border_row</string>
+    <string name="mock_beer_name">Victoria</string>
+    <string name="mock_beer_tag_line">Victoria</string>
+    <string name="description">Description</string>
+    <string name="first_brewed_date">First Brewed Date</string>
+    <string name="food_pairing">Food Pairing</string>
+    <string name="abv">ABV</string>
+    <string name="ibu">IBU</string>
 </resources>

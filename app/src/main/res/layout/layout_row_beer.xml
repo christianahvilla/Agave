@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cl_row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/sp_100"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_row_image"
+        android:layout_width="@dimen/sp_40"
+        android:layout_height="@dimen/sp_40"
+        android:contentDescription="@string/app_name"
+        android:layout_margin="@dimen/sp_4"
+        android:scaleType="centerCrop"
+        android:src="@drawable/agave_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"/>
+
+    <TextView
+        android:id="@+id/tv_row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sp_4"
+        android:fontFamily="@font/regular"
+        android:layout_marginStart="@dimen/sp_8"
+        android:text="@string/mock_beer_name"
+        android:textColor="@color/textColorDark"
+        android:textSize="@dimen/sp_10"
+        app:layout_constraintStart_toEndOf="@+id/iv_row_image"
+        app:layout_constraintTop_toTopOf="@+id/iv_row_image" />
+
+    <TextView
+        android:id="@+id/tv_row_tag_line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sp_4"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/light"
+        android:text="@string/mock_beer_tag_line"
+        android:textColor="@color/textColorLight"
+        android:textSize="@dimen/sp_10"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_row_image"
+        app:layout_constraintStart_toEndOf="@+id/iv_row_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_row_name" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sp_1"
+        android:src="@drawable/border_row"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/border_row" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
